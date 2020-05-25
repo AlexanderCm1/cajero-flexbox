@@ -7,6 +7,12 @@ var third = document.querySelector("#third");
 var four = document.querySelector("#four");
 
 
+/*****otras operaciones */
+var consulta = document.querySelector("#consulta");
+
+
+
+
 /**************BOTONES */
 var b1 = document.querySelector("#button1");
 var b2 = document.querySelector("#button2");
@@ -24,6 +30,7 @@ var bp = document.querySelector("#buttonp");
 
 var input = document.querySelector("#clave");
 var input2 = document.querySelector("#m10");
+var input3 = document.querySelector("#saldo");
 
 /******eventos */
 bp.addEventListener('click',function(){

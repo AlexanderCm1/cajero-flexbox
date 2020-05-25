@@ -13,6 +13,9 @@
     background-color: rgb(156, 156, 156);
 }
 /****contenedor superior******/
+#first-2{
+    display: none;
+}
 .superior{
     border-radius: 5%;
     align-items: center;
@@ -217,6 +220,14 @@ span{
     width: 80px;
 
 }
+#message-p5{
+    color: red;
+    text-align: center;
+}
+
+
+
+
 /****Sexta pantalla****/
 .transProces h1{
     font-size: x-large;
@@ -243,7 +254,32 @@ span{
     justify-content: center;
     align-items: center;
 }
+/****consultas****/
+.segunda-consultas{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 200px;
+    height: 150px;
+    margin-top: 60px;
 
+}
+.primary-consultas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 110px;
+    background-color: aquamarine;
+}
+.tarjeta{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+
+}
+.tarjeta input{
+    width: 50px;
+}
 
 
 
