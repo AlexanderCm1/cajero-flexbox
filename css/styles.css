@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/***contenedor principal****/
+.flex-container{
+    border-radius: 5%;
+    margin: 70px auto ;
+    display: flex; 
+    flex-direction: column;
+    width: 600px;
+    height: 470px;
+    background-color: rgb(156, 156, 156);
+}
+/****contenedor superior******/
+.superior{
+    border-radius: 5%;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    height: 275px;
+    background-color: rgb(156, 156, 156);
+}
+.botones-superiores{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    width: 50px;
+    height: 110px;
+   
+}
+.botones-superiores button{
+    height: 23px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.pantalla{
+  
+    border: 10px solid black;
+    border-radius: 3%;
+    width: 540px;
+    height: 250px;
+    background-image: linear-gradient(to bottom,rgb(250, 250, 98),rgb(255, 246, 163) );
+}
+/******trabajo pantalla****/
+.pantalla-menu,
+.retiro{
+    display: none;
+}
+/**pantalla login*/
+.pantalla-login{
+    display: flex;
+    flex-direction: column;
+    
+}
+.pantalla-login input{
+    margin-left: 100px;
+    width: 250px;
+}
+.pantalla-login h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.pantalla-login h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#message{
+    text-align: center;
+    color: red;
+}
+/*****pantalla menu principal******/
+.triangulo {
+
+    border-left: 20px solid #f0ad4e;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+.triangulo-inver {
+  
+    border-right: 20px solid #f0ad4e;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+}
+.pantalla-menu,
+.retiro{
+    flex-direction: column;
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.primera{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.primary{
+    display: flex;
+    flex-direction: row;
+}
+
+.primer-triangulos,
+.primer-texto{
+    display: flex;
+    flex-direction: column;
+    height:  120px;
+    width: 25px;
+}
+.primer-triangulos,
+.primer-texto{
+    margin-top: 80px;
+}
+.text,
+.triangulo{
+    margin: 5px 2px 5px 0px;
+}
+
+.triangulo-inver{
+    margin: 5px 0px 5px 2px;
+}
+.segundo-texto{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+}
+.segundo-texto p{
+    align-self: flex-end;
+}
+span{
+
+    display: block;
+    align-self: flex-end;
+    margin-top: 5px;
+    margin-bottom: -7px;
+    
+}
+.text-t{
+    margin-bottom: 10px;
+}
+
+.segunda{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 200px;
+    height: 210px;
+   
+}
+/***tercera pantalla**/
+.text-t-a{
+    margin-top: -5px;
+}
+.ta{
+    margin-top: 2px;
+}
+.segundo-texto-3p{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+}
+.segundo-texto-3p p{
+    align-self: flex-end;
+}
+.text-t-b{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****inferior****/
+.inferior{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 175px;
+    background-color: rgb(156, 156, 156);
+    
+
+}
+.teclas{
+    display: flex;
+    justify-content: space-around;
+    width: 520px;
+    background-color: rgb(156, 156, 156);
+    align-items: center;
+    margin-left: 40px;
+}
+.numeros{
+    height: 35px;
+    width: 35px;
+    border-radius: 15%;
+    border: black 1px solid;
+    font-size: large;
+    background-image: linear-gradient(to top, rgb(161, 161, 161), white);
+}
+.letras{
+    height: 35px;
+    width: 80px;
+    font-size: large;
+
+}
+.decoration{
+    display: flex;
+    flex-direction: column;
+    height: 49px;
+    
+}
+
+
+.decoration hr{
+    height: 15px;
+    width: 100px;
+    background-color: black;
+    border: 10px solid rgba(139, 139, 139, 0.719);
+    border-radius: 10%;
+}
+.decoration-1 hr{
+    height: 10px;
+    width: 235px;
+    background-color: black;
+    border: 10px solid rgba(139, 139, 139, 0.719);
+    border-radius: 10%;
+}
+.cancel{
+    border-radius: 11%;
+    background-color: red;
+    border: red;
+}
+.orange{
+    border-radius: 11%;
+    background-color: orange;
+    border: orange;
+}
+.green{
+    border-radius: 11%;
+    background-color: green;
+    border: green;
+}
+.nada{
+    border-radius: 11%;
+    background-color: grey;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.164), rgba(7, 5, 5, 0.027));
+}
+

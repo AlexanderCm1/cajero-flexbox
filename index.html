@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Cajero</title>
+
+</head>
+<body>
+    <section class="flex-container">
+        <section class="superior">
+            <section class="botones-superiores">
+                <button id="first">></button>
+                <button>></button>
+                <button>></button>
+                <button>></button>
+            </section>
+            <section class="pantalla pantalla-login" id="login">
+                <h1>Bienvenido al banco!</h1>
+                <h2>Por favor digite su clave</h2>
+                <br>
+                <input type="password" id="clave">
+                <p id="message"></p>
+
+
+
+        </section>
+
+        <section class="pantalla pantalla-menu" id="menu">
+                <h1 id="menu-h1">Menu Principal</h1>
+
+                <section class="primera" id="primera">
+                <section class="primary">
+                    <section class="primer-triangulos">
+                    <p class="triangulo"></p> 
+                    <p class="triangulo"></p>
+                    <p class="triangulo"></p>
+                    <p class="triangulo"></p>
+                    </section>
+                    <section class="primer-texto">
+                        <p class="text">Retiro</p>
+                        <p class="text">Consultas</p>
+                        <p class="text">Operaciones</p>
+                    </section>
+                </section>
+                <section class="segunda">
+                    <section class="primer-triangulos">
+                        <p class="triangulo-inver"></p> 
+                        <p class="triangulo-inver"></p>
+                        <p class="triangulo-inver"></p>
+                        <p class="triangulo-inver"></p>
+                    </section>
+                    <section class="segundo-texto ">
+                        <p class="text">Movimientos  </p><span>Ultimos</span>
+                        <p class="text"></p>
+                        <p class="text-t">Transferencia</p>
+                    </section>
+            </section>
+                    
+                    
+             </section>
+
+    </section>
+    <section class="pantalla pantalla-menu retiro" id="retiro">
+        <h1 id="retiro-h1">Retiro</h1>
+
+        <section class="primera" id="primera-3p">
+        <section class="primary">
+            <section class="primer-triangulos">
+            <p class="triangulo"></p> 
+            <p class="triangulo"></p>
+            <p class="triangulo"></p>
+            <p class="triangulo"></p>
+            </section>
+            <section class="primer-texto">
+                <p class="text ta">Retiro <span class="text-t-a">Soles</span></p>
+                <p class="text"></p>
+                <p class="text"></p>
+            </section>
+        </section>
+        <section class="segunda">
+            <section class="primer-triangulos">
+                <p class="triangulo-inver"></p> 
+                <p class="triangulo-inver"></p>
+                <p class="triangulo-inver"></p>
+                <p class="triangulo-inver"></p>
+            </section>
+            <section class="segundo-texto-3p ">
+                <p class="text">Cancelar</p>
+                <p class="text"></p>
+                <p class="text"></p>
+                <p class="text-t-b">Retiro</p><span>Dolares</span>
+            </section>
+        </section>
+            
+            
+        </section>
+
+    </section>
+
+
+
+
+            <section class="botones-superiores">
+                <button><</button>
+                <button><</button>
+                <button><</button>
+                <button><</button>
+            </section>
+
+
+        </section>
+
+
+        <section class="inferior">
+            <section class="teclas">
+                <button class="numeros" id="button1">1</button>
+                <button class="numeros" id="button2">2</button>
+                <button class="numeros" id="button3">3</button>
+                <button class="letras cancel">Cancel</button>
+                <section class="decoration texto">
+                    <p>Card</p>
+                    <hr>
+                </section>
+                <section class="decoration texto">
+                    <p>Receipt</p>
+                    <hr>
+                </section>
+
+            </section>
+            <section class="teclas">
+                <button class="numeros" id="button4">4</button>
+                <button class="numeros" id="button5">5</button>
+                <button class="numeros" id="button6">6</button>
+                <button class="letras orange">Clear</button>
+                <section class="decoration-1 texto">
+                    <p>Cash</p>
+                    <hr>
+                </section>
+
+            </section> 
+            <section class="teclas">
+                <button class="numeros" id="button7">7</button>
+                <button class="numeros" id="button8">8</button>
+                <button class="numeros" id="button9">9</button>
+                <button class="letras green" id="ok">Ok</button>
+                <section class="decoration-1 texto">
+                    <p>Deposit</p>
+                    <hr>
+                </section>
+
+            </section> 
+            <section class="teclas">
+                <button class="numeros" id="buttonp">.</button>
+                <button class="numeros" id="button0">0</button>
+                <button class="numeros"></button>
+                <button class="letras nada"></button>
+                <section class="decoration-1 texto" style="visibility: hidden;">
+                    <p>Deposit</p>
+                    <hr>
+                </section>
+
+            </section>          
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+    </section>
+    <script src="js/cajero.js"></script>
+    <script src="js/botones.js"></script>
+    <script src="js/eventos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
