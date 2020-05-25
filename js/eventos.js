@@ -2,6 +2,7 @@
 /*****manipulacion del Dom */
 var ok = document.querySelector("#ok");
 var first = document.querySelector("#first");
+var second = document.querySelector("#second");
 
 
 /**************BOTONES */
@@ -17,9 +18,10 @@ var b9 = document.querySelector("#button9");
 var b0 = document.querySelector("#button0");
 var bp = document.querySelector("#buttonp");
 
+/******inputs */
 
 var input = document.querySelector("#clave");
-
+var input2 = document.querySelector("#m10");
 
 /******eventos */
 bp.addEventListener('click',function(){

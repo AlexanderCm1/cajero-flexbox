@@ -63,18 +63,7 @@
             x = 0;
         }
         return x;
-    }
-    validarRetiro(){
-        var x;
-        var datos2 = document.querySelector("#segunda-capa");
-        var datos3 = document.querySelector("#tercera-capa");
-        if(datos2.style.display == "none" && datos3.style.display == "block"){
-            x = 1;
-        }else {
-            x = 0;
-        }
-        return x;
-    }
+    }s
     getsaldo(){
         return this.saldo;
     }
