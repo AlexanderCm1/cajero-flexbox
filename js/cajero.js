@@ -1,7 +1,7 @@
  /****clase cajero */
  
  class Cajero{
-    constructor(pass){
+    constructor(pass,m10){
         this.boton1 = 1;
         this.boton2 = 2;
         this.boton3 = 3;
@@ -15,6 +15,7 @@
         this.botonnada = "";
         this.botonp = ".";
         this.contra = pass;
+        this.multiplo = m10;
         this.saldo = 1000;
     }
     getB0(){
@@ -53,6 +54,9 @@
     getBp(){
         return this.botonp;
     }
+    getsaldo(){
+        return this.saldo;
+    }
     validarPass(){
         var x;
         if(this.contra == '1'){
@@ -63,9 +67,16 @@
             x = 0;
         }
         return x;
-    }s
-    getsaldo(){
-        return this.saldo;
     }
+    validarMultiplo10(){
+        var x;
+        if((this.multiplo % 10) == 0){
+            x = 1;
+        }else{
+            x = 0;
+        }
+        return x;
+    }
+ 
 
 }

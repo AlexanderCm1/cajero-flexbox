@@ -3,6 +3,8 @@
 var ok = document.querySelector("#ok");
 var first = document.querySelector("#first");
 var second = document.querySelector("#second");
+var third = document.querySelector("#third");
+var four = document.querySelector("#four");
 
 
 /**************BOTONES */
